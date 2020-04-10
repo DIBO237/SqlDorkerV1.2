@@ -8,7 +8,7 @@ pip install requests<br>
 pip install pool<br>
 
 <h2>#To Run:</h2><br>
- <br>Python SqlDorkerV1.2.py<br>
- <br>or<br>
- <br>if you have dork list:<br>
- <br>Python SqlDorkerV1.2.py dorklist.txt
+ Python SqlDorkerV1.2.py<br>
+ or<br>
+ if you have dork list:<br>
+ Python SqlDorkerV1.2.py dorklist.txt
