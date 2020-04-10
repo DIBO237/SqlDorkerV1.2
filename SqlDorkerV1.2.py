@@ -33,7 +33,7 @@ class Dorker(object):
         for result in results:
             link = result.find('a').attrs['href']
             print(link)
-            f = open('result.txt', 'w')
+            f = open('result.txt', 'a')
             f.write(link)
             f.write("\n")
             f.close()
@@ -72,7 +72,7 @@ MAke YOUr SeleCtIonS:
         page_count = int(input("Enter pages to look: "))
         thread_count = int(input("Threads: "))
 
-        open('result.txt', 'a').close()
+        open('result.txt', 'w').close()
 
         dorker = Dorker(dorks, page_count, thread_count)
         dorker.run()
